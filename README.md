@@ -37,17 +37,27 @@ applications:
   path: ./target/TelstraSMSAPIPublic-0.0.1-SNAPSHOT.jar
 ```
 
-- Deploy as follows
+- Deploy as follows, once you have a unique HOSTNAME Route to use
 
 ```
 $ cf push -f manifest.yml
 ```
 
+Once deployed it will look as follows in the new Bluemix UI Web Console
+
+![alt tag](https://dl.dropboxusercontent.com/u/15829935/bluemix-docs/images/tel-sms-api-2.png)
+
 <h3> Access Swagger UI </h3>
+
+Note: Make sure you use the correct HOSTNAME route you used in manifest.yml
 
 ```
 http://apples-springboot-telstrasms.mybluemix.net/swagger-ui.html
 ```
+
+Eg:
+
+![alt tag](https://dl.dropboxusercontent.com/u/15829935/bluemix-docs/images/tel-sms-api-1.png)
 
 <h3> Import Swagger Defintions into API Connect for example </h3>
 
