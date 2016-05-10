@@ -1,0 +1,7 @@
+applications:
+- name: springboot-telstrasms
+  memory: 512M
+  instances: 1
+  host: apples-springboot-telstrasms
+  buildpack: java_buildpack
+  path: ./target/TelstraSMSAPIPublic-0.0.1-SNAPSHOT.jar
