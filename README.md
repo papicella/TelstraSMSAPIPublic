@@ -1,4 +1,4 @@
-<h1> Spring Boot Sample with Swagger for Telstra Public SMS API </h1>
+<h1>Spring Boot Sample with Swagger for Telstra Public SMS API</h1>
 
 The following demo expsoing Telstra SMS API described at https://dev.telstra.com/content/sms-api-0
 
