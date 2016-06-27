@@ -47,7 +47,7 @@ Once deployed it will look as follows in Pivotal Apps manager
 Note: Make sure you use the correct HOSTNAME route you used in manifest.yml
 
 ```
-http://apples-springboot-telstrasms.mybluemix.net/swagger-ui.html
+http://apples-springboot-telstrasms.pcfdemo.net/swagger-ui.html
 ```
 
 Eg:
@@ -57,7 +57,7 @@ Eg:
 <h3> Import Swagger Defintions for API Consumption </h3>
 
 ```
-http://apples-springboot-telstrasms.au-syd.mybluemix.net/v2/api-docs?group=telstra
+http://apples-springboot-telstrasms.pcfdemo.net/v2/api-docs?group=telstra
 ```
 
 <hr />
