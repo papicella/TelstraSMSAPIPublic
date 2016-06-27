@@ -1,4 +1,4 @@
-package pas.au.ibm.bluemix.api.rest;
+package pas.au.pivotal.pws.api.rest;
 
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -70,7 +70,7 @@ public class TelstraSMSApi
         if (body == null)
         {
             log.info("HTTP GET request to send a Telstra SMS API");
-            requestJson = String.format("{\"to\":\"%s\", \"body\":\"Hello, pas sent this message from telstra SMS api on IBM Bluemix!\"}", to);
+            requestJson = String.format("{\"to\":\"%s\", \"body\":\"Hello, pas sent this message from telstra SMS api on Pivotal Web Services (PWS)!\"}", to);
         }
         else
         {

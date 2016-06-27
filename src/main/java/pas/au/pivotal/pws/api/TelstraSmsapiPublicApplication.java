@@ -1,4 +1,4 @@
-package pas.au.ibm.bluemix.api;
+package pas.au.pivotal.pws.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,7 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import static springfox.documentation.builders.PathSelectors.regex;
 
 @EnableSwagger2
-@ComponentScan("pas.au.ibm.bluemix.api")
+@ComponentScan("pas.au.pivotal.pws.api")
 @SpringBootApplication
 public class TelstraSmsapiPublicApplication {
 
