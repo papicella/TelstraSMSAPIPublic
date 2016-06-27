@@ -62,4 +62,4 @@ http://apples-springboot-telstrasms.pcfdemo.net/v2/api-docs?group=telstra
 
 <hr />
 
-Pas Apicella [pasapi at au1.ibm.com] is a Bluemix Technical Specialist at IBM Australia
+Pas Apicella [papicella at pivotal.io] is a Senior Platform Architect at Pivotal Australia
