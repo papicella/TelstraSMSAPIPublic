@@ -6,11 +6,7 @@ You need a T.DEV account at the link here to use this API
 
   https://dev.telstra.com/
   
-<h3> Deploy to Bluemix </h3>
-
-<a href="https://bluemix.net/deploy?repository=https://github.com/papicella/TelstraSMSAPIPublic.git" target="_blank"><img src="http://bluemix.net/deploy/button.png" alt="Bluemix button" /></a>
-
-<h3> Deploy to Bluemix Manually </h3>
+<h3> Deploy to Pivotal Cloud Foundry </h3>
 
 - Clone project as follows
 
@@ -33,7 +29,6 @@ applications:
   memory: 512M
   instances: 1
   host: apples-springboot-telstrasms
-  buildpack: java_buildpack
   path: ./target/TelstraSMSAPIPublic-0.0.1-SNAPSHOT.jar
 ```
 
@@ -43,9 +38,9 @@ applications:
 $ cf push -f manifest.yml
 ```
 
-Once deployed it will look as follows in the new Bluemix UI Web Console
+Once deployed it will look as follows in Pivotal Apps manager
 
-![alt tag](https://dl.dropboxusercontent.com/u/15829935/bluemix-docs/images/tel-sms-api-2.png)
+![alt tag](https://dl.dropboxusercontent.com/u/15829935/platform-demos/images/tel-sms-api-1.png)
 
 <h3> Access Swagger UI </h3>
 
@@ -57,9 +52,9 @@ http://apples-springboot-telstrasms.mybluemix.net/swagger-ui.html
 
 Eg:
 
-![alt tag](https://dl.dropboxusercontent.com/u/15829935/bluemix-docs/images/tel-sms-api-1.png)
+![alt tag](https://dl.dropboxusercontent.com/u/15829935/platform-demos/images/springboot-swagger.png)
 
-<h3> Import Swagger Defintions into API Connect for example </h3>
+<h3> Import Swagger Defintions for API Consumption </h3>
 
 ```
 http://apples-springboot-telstrasms.au-syd.mybluemix.net/v2/api-docs?group=telstra
